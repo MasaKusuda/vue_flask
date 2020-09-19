@@ -1,0 +1,5 @@
+FROM node:13-slim
+
+WORKDIR /usr/src/app
+
+RUN yarn global add @vue/cli && yarn global add @vue/cli-init
